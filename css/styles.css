@@ -1,0 +1,185 @@
+* ----------------------- */
+/*       Main styles       */
+/* ----------------------- */
+
+/* Global styles */
+body {
+.afacad {
+  color: #4A5057;
+  font-family: "Afacad", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400, 500, 600, 700;
+  font-style: normal;
+}
+}
+
+/* Section styles */
+header {
+    background-color: #4A5057;
+    padding: 25px 25px;
+}
+
+.projects {
+    background-color: white;
+    padding: 50px 15px;
+}
+
+.about {
+    /*background-color: #333333;
+    color: white;*/
+    padding: 35px 15px;
+}
+
+.process {
+    background-color: #333333;
+    color: white;
+    padding: 35px 15px;
+}
+
+footer {
+    background-color: #4A5057;;
+    padding: 50px 15px;
+    text-align: center;
+    font-weight: 700;
+    color: white;
+}
+
+header, .svg { 
+    color: #ffffff !important;
+}
+
+.mspacer-1 {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.mspacer-2 {
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+/* Section styles */
+
+
+
+/* Heading styles */
+h1 {
+    color: white;
+    font-size: 1.8em;
+    font-weight: 500;
+    text-align: center;
+    line-height: 1em;
+    text-shadow: 0 1px 4px rgba(0,0,0,0.35);  
+    margin: 15px 0 5px 0;
+   /** text-transform: uppercase;   **/
+}
+
+h2 {
+    /*color: #222222;*/
+    font-size: 1.5em;
+    font-weight: 200;
+    text-align: center;
+    margin: 10px 0 10px 0;
+}
+
+heading > h2 {
+    color: #ffffff !important;
+}
+
+h3 {
+    color: #4A5057;
+    font-size: 1.4em;
+    font-weight: 700;
+    text-align: center;
+    margin: 10px 0 10px 0;
+    text-transform: uppercase;
+}
+
+h4 {
+    font-size: 1.15em;
+    font-weight: 600;
+    color: white;
+    text-shadow: 0 1px 1px #333333;    
+}
+
+
+
+/* Project tile styles */
+.project {
+    background-size: cover;
+    background-color: rgba(0,0,0,0.6);
+    background-blend-mode: overlay;
+    margin: 12px;
+    padding: 15px;
+    border-radius: 15px;
+    box-shadow: 0 2px 5px darkgrey;
+    min-height: 100px;
+    text-align: center;
+    padding-top: 8%;
+}
+
+.project:hover {
+    transform: scale(1.02);
+    transition: all 0.2s;
+     transition: out 0.2s;
+}
+
+.project:focus {
+    transform: scale(1.02);
+    transition: all 0.2s;
+     transition: out 0.2s;
+}
+
+
+/* Button styles */
+.btn-primary {
+    color: #4A5057;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid #4A5057;
+    margin: 20px 0;
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: middle;
+    transition: all 0.2s;    
+}
+
+.btn-primary:hover {
+    transform: scale(1.03);
+    transition: all 0.2s;
+    border: 1px solid #4A5057;
+    background: #4A5057;
+    color: white;    
+    text-decoration: none;
+}
+
+.btn-secondary {
+    color: #ffffff;
+    background: transparent;
+    border-radius: 50px;
+    border: 1px solid #ffffff;
+    margin: 20px 0;
+    padding: 10px 16px;
+    text-align: center;
+    font-size: 1em;
+    font-weight: 700;
+    text-decoration: none;
+    vertical-align: middle;
+    transition: all 0.2s;    
+}
+
+.btn-secondary:hover {
+    transform: scale(1.03);
+    transition: all 0.2s;
+    border: 1px solid #ffffff;
+    background: #ffffff;
+    color: #4A5057;    
+    text-decoration: none;
+}
+
+
+
+/* Link styles */
