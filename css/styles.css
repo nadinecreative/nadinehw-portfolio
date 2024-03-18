@@ -95,8 +95,12 @@ h3 {
     font-size: 1.4em;
     font-weight: 700;
     text-align: center;
-    margin: 10px 0 10px 0;
+    margin: 10px 0 40px 0;
     text-transform: uppercase;
+}
+
+footer > h3 {
+    color: #ffffff !important;
 }
 
 h4 {
